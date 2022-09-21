@@ -1,0 +1,449 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: 'Rajdhani', Franklin Gothic Medium;
+    /* font-family: 'Arial Narrow', Arial, sans-serif; */
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+
+/* ======Utility Classes Starts====== */
+
+.background {
+    background: rgb(55, 0, 0) !important;
+}
+
+.color {
+    color: rgb(225, 160, 160) !important;
+}
+
+.color2 {
+    color: rgb(250, 85, 85) !important;
+}
+
+.color3 {
+    color: rgba(250, 70, 70, 0.8) !important;
+}
+
+.header1 {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.header2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.header3 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.paragraph1 {
+    text-align: justify !important;
+    text-decoration: none !important;
+    font-size: 1.2rem !important;
+}
+.paragraph2 {
+    text-align: justify !important;
+    text-decoration: none !important;
+    font-size: 1rem !important;
+}
+
+.theline {
+    width: 60%;
+    margin-left: 20%;
+}
+
+/* ===Cards=== */
+
+.cards {
+    margin: 10px !important;
+    border: 1px solid rgb(255, 180, 180) !important;
+    border-radius: 10px !important;
+    padding: 25px 25px !important;
+    width: 368px !important;
+    height: 270px !important;
+    transition: all 0.2s ease-in-out !important;
+    overflow: hidden !important;
+}
+
+.cards:hover {
+    transform: translate(0, -10px) !important;
+    box-shadow: 0px 0px 10px rgb(170, 50, 20);
+}
+
+.cards2 {
+
+    height: 300px !important;
+    width: 368px !important;
+    margin: 10px !important;
+    background-color: rgb(30, 0, 0) !important;
+    border-radius: 10px !important;
+    padding: 25px 25px !important;
+    overflow: hidden !important;
+}
+
+/* ======Utility Classes Ends====== */
+
+/* ====== Navbar List Styling ====== */
+
+
+.navigation-bar {
+    display: flex !important;
+    top: 0px !important;
+    height: 50px !important;
+    position: sticky !important;
+    justify-content: right;
+}
+
+.navigation-bar::before {
+    content: "";
+    height: 80% !important;
+    padding: 2px 0px !important;
+    position: absolute !important;
+    top: 0px !important;
+    width: 100% !important;
+    z-index: -1 !important;
+}
+
+#logo1 {
+    position: relative;
+    right: 1010px;
+    padding-bottom: 0px;
+}
+
+.navigation-bar img {
+
+    width: 350px;
+    height: 50px;
+    padding: 5px 15px;
+}
+
+.list1 {
+    display: flex !important;
+}
+
+.navigation-items {
+    justify-content: space-evenly !important;
+    list-style: none !important;
+}
+
+.navigation-items a {
+    display: flex !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    padding: 8px 20px !important;
+    border-radius: 5px !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.navigation-items a:hover {
+
+    color: rgb(150, 0, 0) !important;
+    background-color: rgb(255, 180, 180) !important;
+    box-shadow: 0px 0px 15px rgb(50, 100, 0) !important;
+    transform: translate(0, 3px) !important;
+}
+
+/* ====== Navbar List Styling ====== */
+
+/* ======Home Neon Icons Background Starts====== */
+
+.mainbox {
+    position: absolute;
+    align-items: center;
+    height: 927px;
+    width: 100%;
+    top: 50px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.mainbox .row {
+    display: flex;
+    position: relative;
+    top: -50%;
+    left: -10%;
+    width: 100%;
+    padding: 10px 0px;
+    white-space: nowrap;
+    font-size: 45px;
+    transform: rotate(-30deg);
+}
+
+.icons1 {
+    animation: animate1 180s linear infinite;
+    animation-delay: -1s;
+}
+
+.icons2 {
+    animation: animate2 180s linear infinite;
+    animation-delay: -1s;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(25%);
+    }
+
+    100% {
+        transform: translateX(-25%);
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateX(25%);
+    }
+
+    100% {
+        transform: translateX(-25%);
+    }
+}
+
+:nth-child(even) .icons1 {
+    padding: 0px 0px;
+    animation: animate3 180s linear infinite;
+    animation-delay: -1s;
+}
+
+:nth-child(even) .icons2 {
+    padding: 0px 0px;
+    animation: animate4 180s linear infinite;
+    animation-delay: -1s;
+}
+
+@keyframes animate3 {
+    0% {
+        transform: translateX(25%);
+    }
+
+    100% {
+        transform: translateX(-25%);
+    }
+}
+
+@keyframes animate4 {
+    0% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(25%);
+    }
+}
+
+/* ======Neon Background Icons====== */
+
+.mainbox i {
+    color: rgb(60, 10, 10);
+    transition: 0.8s;
+    user-select: none;
+    cursor: default;
+}
+
+i:hover {
+    transition: 0s;
+    color: rgb(150, 0, 0);
+    text-shadow: 0px 0px 25px rgb(130, 0, 0);
+}
+
+/* ======Home Neon Icons Background Ends====== */
+
+/* ======Home Page Starts====== */
+
+.introduction {
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.button {
+    padding: 8px 20px !important;
+    border-radius: 5px !important;
+    border: 0px !important;
+    margin: 20px !important;
+    text-transform: uppercase !important;
+    font-size: 1.2rem !important;
+    background-color: rgb(255, 85, 85) !important;
+    cursor: pointer !important;
+    color: rgb(55, 0, 0) !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.button:hover {
+    color: rgb(150, 0, 0) !important;
+    background-color: rgba(255, 180, 180, .75) !important;
+    transform: translate(0, -10px) !important;
+}
+
+/* ======Home Page Ends====== */
+
+/* ======About Section Starts====== */
+
+.aboutbox {
+    position: absolute;
+    top: 975px;
+    padding-top: 175px;
+    display: block;
+    margin: auto;
+    height: 1481px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* ======About Section Ends====== */
+
+/* ===Image and About me Starts=== */
+
+.opening-paragraph {
+    display: flex;
+    padding: 75px 415px;
+    padding-bottom: 125px;
+}
+
+.opening-paragraph img {
+    padding: 5px 5px;
+    height: 570px;
+    width: 400px;
+}
+
+.opening-paragraph p {
+    padding: 5px 30px !important;
+    padding-left: 85px !important;
+    letter-spacing: 1px !important;
+}
+
+.cards3{
+    padding-top: 30px;
+}
+
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding-top: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme .cards {
+    cursor: pointer;
+}
+.aboutme .cards p{
+    text-align: center !important;
+}
+
+/* ===Image and About me Ends=== */
+
+/* ======Academics Section Starts====== */
+
+.academicsbox {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 2455px;
+    height: 510px;
+    width: 100%;
+    padding: 10px 350px;
+    padding-top: 175px;
+    text-align: center;
+}
+
+.academics {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.academics .cards2 {
+    height: 175px !important;
+}
+
+
+/* ======Academics Section Ends====== */
+
+/* ======Technology Stack Section Starts====== */
+
+.skillbox {
+    top: 2965px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    padding: 35px 275px;
+    padding-top: 175px;
+    height: 1100px;
+    width: 100%;
+    text-align: center;
+}
+
+.skillset {
+    display: flex;
+    margin-top: 15px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ======Technology Stack Section Ends====== */
+
+/* ======Reach-Me Section Starts====== */
+
+.reachbox {
+    top: 4065px ;
+    display: block ;
+    position: absolute ;
+    margin: auto ;
+    padding: 25px 25px ;
+    height: 200px ;
+    width: 100% ;
+    text-align: center ;
+}
+
+.reachme {
+    display: flex ;
+    flex-wrap: wrap;
+    padding: 25px 15px ;
+    justify-content: center ;
+}
+
+.reachme a {
+    text-decoration: none !important;
+    letter-spacing: 1px !important;
+    font-size: 15px !important;
+}
+
+.reachme p:hover {
+    color: rgba(250, 70, 70, 0.8) !important;
+}
+
+/* ======Reach-Me Section Ends====== */
+
+/* ======Footer Section Starts====== */
+
+.footer1 {
+    position: absolute !important;
+    width: 100% !important;
+    top: 4265px ;
+    padding: 10px 10px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+}
+
+/* ======Footer Section Ends====== */

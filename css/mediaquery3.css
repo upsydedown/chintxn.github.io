@@ -1,0 +1,169 @@
+@media (min-width: 320px) and (max-width: 415px) {
+
+    /* =======Utility Classes====== */
+
+    .header2 {
+        font-size: 20px;
+    }
+
+    .header1 {
+        font-size: 30px;
+    }
+
+    .header3 {
+        font-size: 12px;
+    }
+
+    .paragraph1 {
+        font-size: 1rem !important;
+    }
+
+    .paragraph2 {
+        font-size: 0.8rem !important;
+    }
+
+    .cards {
+        width: 285px !important;
+        height: 115px !important;
+    }
+
+    .cards2 {
+        height: 245px !important;
+        width: 285px !important;
+        margin: 10px !important;
+    }
+
+    /* ======Navigation-Bar Starts====== */
+
+    .navigation-bar {
+        justify-content: space-evenly !important;
+        height: 35px !important;
+    }
+
+    .navigation-items a {
+        padding: 3px 5px !important;
+        font-size: 10px !important;
+        border-radius: 3px !important;
+    }
+
+    .list1 {
+        padding: 8px 5px;
+        padding-left: 35px;
+        height: 40px;
+
+    }
+
+    #logo1 {
+        right: -5px;
+        top: 5px;
+    }
+
+    .navigation-bar img {
+        width: 85px;
+        height: 25px;
+        padding: 5px 5px;
+    }
+
+    /* ======Navigation-Bar Ends====== */
+    /* ======Home Section Starts====== */
+
+    .mainbox {
+        height: 750px;
+        top: 34px;
+    }
+
+    .introduction {
+        margin-top: 315px;
+    }
+
+    .button {
+        padding: 5px 15px !important;
+        margin: 15px !important;
+        font-size: 0.8rem !important;
+    }
+
+    /* ======Home Section Ends====== */
+    /* ======About Section Starts====== */
+
+    .aboutbox {
+        top: 780px;
+        padding-top: 100px;
+        height: 1950px;
+    }
+
+    .aboutme {
+        padding: 10px 50px;
+    }
+
+    .opening-paragraph {
+        flex-wrap: wrap;
+        padding: 50px 50px;
+        padding-bottom: 50px;
+    }
+
+    .opening-paragraph img {
+        width: 312px;
+        height: 430px;
+        margin-bottom: 40px;
+    }
+
+    .opening-paragraph p {
+        padding: 5px 10px !important;
+    }
+
+    .cards3 {
+        padding-top: 20px;
+    }
+
+
+    /* ======About Section Ends====== */
+    /* ======Academics Section Starts====== */
+
+    .academicsbox {
+        top: 2725px;
+        padding: 15px 50px;
+        padding-top: 75px;
+        height: 725px;
+    }
+
+    .academics {
+        margin-top: 10px;
+        padding-top: 30px !important;
+    }
+
+
+    .academics .cards2 {
+        height: 160px !important;
+    }
+
+    /* ======Academics Section Ends====== */
+    /* ======Skills Section Starts====== */
+
+    .skillbox {
+        top: 3445px;
+        padding: 10px 50px;
+        padding-top: 75px;
+        height: 1825px;
+    }
+
+    /* ======Skills Section Ends====== */
+    /* ======Reach Section Starts====== */
+
+    .reachbox {
+        top: 5265px;
+        padding: 10px 10px;
+        height: 225px;
+    }
+
+    .reachme {
+        padding: 5px 90px;
+    }
+
+    /* ======Reach Section Ends====== */
+    /* ======Footer Section Starts====== */
+
+    .footer1 {
+        top: 5485px;
+        font-size: 0.8rem;
+    }
+}

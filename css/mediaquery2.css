@@ -1,0 +1,170 @@
+@media (min-width: 420px) and (max-width: 480px) {
+
+    /* =======Utility Classes====== */
+
+    .header2 {
+        font-size: 20px;
+    }
+
+    .header1 {
+        font-size: 40px;
+    }
+
+    .header3 {
+        font-size: 12px;
+    }
+
+    .paragraph1 {
+        font-size: 1rem !important;
+    }
+
+    .paragraph2 {
+        font-size: 0.8rem !important;
+    }
+
+    .cards {
+        width: 358px !important;
+    height: 115px !important;
+    }
+
+    .cards2 {
+        height: 185px !important;
+        width: 358px !important;
+        margin: 10px !important;
+    }
+
+    /* ======Navigation-Bar Starts====== */
+
+    .navigation-bar {
+        justify-content: space-evenly !important;
+        height: 35px !important;
+    }
+
+    .navigation-items a {
+        padding: 2px 8px !important;
+        font-size: 0.8rem !important;
+        border-radius: 3px !important;
+    }
+
+    .list1 {
+        padding: 7px 10px;
+        padding-left: 50px;
+        height: 40px;
+
+    }
+
+    #logo1 {
+        right: -5px;
+        top: 5px;
+    }
+
+    .navigation-bar img {
+        width: 85px;
+        height: 25px;
+        padding: 5px 5px;
+    }
+
+    /* ======Navigation-Bar Ends====== */
+    /* ======Home Section Starts====== */
+
+    .mainbox {
+        height: 750px;
+        top: 34px;
+    }
+
+    .introduction {
+        margin-top: 315px;
+    }
+
+    .button {
+        padding: 5px 15px !important;
+        margin: 15px !important;
+        font-size: 0.8rem !important;
+    }
+
+    /* ======Home Section Ends====== */
+    /* ======About Section Starts====== */
+
+    .aboutbox {
+        top: 780px;
+        padding-top: 100px;
+        height: 1835px;
+    }
+
+    .aboutme {
+        padding-top: 50px;
+        padding: 10px 50px;
+    }
+
+    .opening-paragraph {
+        flex-wrap: wrap;
+        padding: 50px 50px;
+        padding-bottom: 50px;
+    }
+
+    .opening-paragraph img {
+        width: 375px;
+        height: 535px;
+        margin-bottom: 40px;
+    }
+
+    .opening-paragraph p {
+        padding: 5px 10px !important;
+    }
+
+    .cards3 {
+        padding-top: 20px;
+    }
+
+
+    /* ======About Section Ends====== */
+    /* ======Academics Section Starts====== */
+
+    .academicsbox {
+        top: 2610px;
+        padding: 15px 50px;
+        padding-top: 75px;
+        height: 670px;
+    }
+
+    .academics {
+        margin-top: 10px;
+        padding-top: 30px !important;
+    }
+
+
+    .academics .cards2 {
+        height: 140px !important;
+    }
+
+    /* ======Academics Section Ends====== */
+    /* ======Skills Section Starts====== */
+
+    .skillbox {
+        top: 3275px;
+        padding: 10px 50px;
+        padding-top: 75px;
+        height: 1450px;
+    }
+
+    /* ======Skills Section Ends====== */
+    /* ======Reach Section Starts====== */
+
+    .reachbox {
+        top: 4720px;
+        padding: 10px 10px;
+        height: 225px;
+    }
+
+    .reachme {
+        padding: 5px 125px;
+    }
+
+    /* ======Reach Section Ends====== */
+    /* ======Footer Section Starts====== */
+
+    .footer1 {
+        top: 4940px;
+        font-size: 0.8rem;
+    }
+}
